@@ -18,7 +18,7 @@ let roll = 89;
 const harun = setInterval(() => {
     roll++;
     console.log(roll);
-    if(roll ===100){
+    if (roll === 100) {
         clearInterval(harun);
         console.log('Lucky Harun and Halima')
     }
